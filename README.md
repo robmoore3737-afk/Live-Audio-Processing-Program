@@ -38,10 +38,10 @@ The gain controls the overall energy given on the way out. This helps maintainin
 ### - Low-Pass Filter
 The control for the filter allows higher frequencies to pass when the control value is high, and blocks higher frequencies the lower the value.
 
-### Delay Time 
+### - Delay Time 
 Increasing the value of this parameters increases the time delay (seconds) of the signal reaching the output. The highest vaue is 4 seconds. Lower values create tighter echos. 
 
-### Feedback 
+### - Feedback 
 Controls how much of the delay signal is put bacxk into the delay line. This increases the number of repeats potentially creating  smeared or more resonant textures.
 
 ### Wet/Dry Mix
