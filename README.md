@@ -50,17 +50,6 @@ Explore the spectrum of an original signal to heavly processed signal encompassi
 ## Live-use note
 This program can be used in live-performance contexts, but care must be taken with microphone and speaker placement. Because the software processes live microphone input and returns it to the output, acoustic feedback may occur if the speaker signal is re-captured by the microphone.
 
-## Repository contents
-live-audio-processing-program/
-  README.md
-  src/
-    LiveAudioProgram.csd
-  docs/
-    one-page-description.md
-  assets/
-    screenshot.png
-  build_and_run.md
-
 
 ## Author
 Robert Moore
