@@ -35,7 +35,7 @@ The effects can create interesting textures when sounds events are captured by t
 ### Gain Effect
 The gain controls the overall energy given on the way out. This helps maintaining audio levels . 
 
-### Low_Pass Filter
+### Low-Pass Filter
 The control for the filter allows higher frequencies to pass when the control value is high, and blocks higher frequencies the lower the value.
 
 ### Delay Time 
