@@ -30,12 +30,12 @@ The effects can create interesting textures when sounds events are captured by t
 5. Run the programm
 6. Speak, clap or send short/long sounds into the micrcophone and adjust the effects
 
-## GUI Slider controls
+## GUI slider controls
 
-### GAIN EFFECT
+### Gain Effect
 The gain controls the overall energy given on the way out. This helps maintaining audio levels . 
 
-### LOW-PASS Filter
+### Low_Pass Filter
 The control for the filter allows higher frequencies to pass when the control value is high, and blocks higher frequencies the lower the value.
 
 ### Delay Time 
@@ -44,7 +44,7 @@ Increasing the value of this parameters increases the time delay (seconds) of th
 ### Feedback 
 Controls how much of the delay signal is put bacxk into the delay line. This increases the number of repeats potentially creating  smeared or more resonant textures.
 
-### Wet/Dry mix
+### Wet/Dry Mix
 Explore the spectrum of an original signal to heavly processed signal encompassing all of the effects. Lower values equal a more original signal.
 
 ## Live-use note
