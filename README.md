@@ -30,7 +30,7 @@ The effects can create interesting textures when sounds events are captured by t
 5. Run the programm
 6. Speak, clap or send short/long sounds into the micrcophone and adjust the effects
 
-## GUI controls
+## GUI Slider controls
 
 ### GAIN EFFECT
 The gain controls the overall energy given on the way out. This helps maintaining audio levels . 
