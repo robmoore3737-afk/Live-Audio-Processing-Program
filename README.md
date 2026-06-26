@@ -56,7 +56,7 @@ This program can be used in live-performance contexts, but care must be taken wi
   - LiveAudioProcessingProgram.csd
   - One-page-description.docx
   - widget_setup.png
-  - build_and_run.md
+  - setup_and_run.md
 
 ## Author
 Robert Moore
