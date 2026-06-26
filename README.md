@@ -8,7 +8,8 @@ This project is a compact processor that allows for intuitive interaction and is
 
 This software captures sound events through a microphone and processes them in real time. The incoming signal passes through a simple DSP chain consisting of gain control, low-pass filtering, delay with feedback and wet/dry mixing before being sent to the output. 
 
-The effects can create interesting textures when sounds events are captured by the microphone providing a creative tool for live performance. The user is recommended to use headphones when testing; if the audio set up is liable to additional feedback, a build up and smearing of signal may result. The graphical user interface makes interacting with the software practical and intuitive. With minimal signal mixing, the code effectively acts as an audio interface. 
+The effects can create interesting textures when sounds events are captured by the microphone providing a creative tool for live performance. The user is recommended to use headphones when testing; if the audio set up is liable to additional feedback, a build up and smearing of signal may result. The graphical user interface makes interacting with the software practical and intuitive. 
+
 
 ## Features
 - Live Microphone input
@@ -32,7 +33,34 @@ The effects can create interesting textures when sounds events are captured by t
 ## GUI controls
 
 ### GAIN EFFECT
-The gain controls the overall energy given on the way out, scaled to ....
+The gain controls the overall energy given on the way out. This helps maintaining audio levels . 
 
 ### LOW-PASS Filter
-The control for the filter 
+The control for the filter allows higher frequencies to pass when the control value is high, and blocks higher frequencies the lower the value.
+
+### Delay Time 
+Increasing the value of this parameters increases the time delay (seconds) of the signal reaching the output. The highest vaue is 4 seconds. Lower values create tighter echos. 
+
+### Feedback 
+Controls how much of the delay signal is put bacxk into the delay line. This increases the number of repeats potentially creating  smeared or more resonant textures.
+
+### Wet/Dry mix
+Explore the spectrum of an original signal to heavly processed signal encompassing all of the effects. Lower values equal a more original signal.
+
+## Live-use note
+This program can be used in live-performance contexts, but care must be taken with microphone and speaker placement. Because the software processes live microphone input and returns it to the output, acoustic feedback may occur if the speaker signal is re-captured by the microphone.
+
+## Repository contents
+live-audio-processing-program/
+  README.md
+  src/
+    LiveAudioProgram.csd
+  docs/
+    one-page-description.md
+  assets/
+    screenshot.png
+  build_and_run.md
+
+
+## Author
+Robert Moore
