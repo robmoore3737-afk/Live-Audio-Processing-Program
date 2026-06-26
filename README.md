@@ -44,12 +44,19 @@ Increasing the value of this parameters increases the time delay (seconds) of th
 ### - Feedback 
 Controls how much of the delay signal is put bacxk into the delay line. This increases the number of repeats potentially creating  smeared or more resonant textures.
 
-### Wet/Dry Mix
+### - Wet/Dry Mix
 Explore the spectrum of an original signal to heavly processed signal encompassing all of the effects. Lower values equal a more original signal.
 
 ## Live-use note
 This program can be used in live-performance contexts, but care must be taken with microphone and speaker placement. Because the software processes live microphone input and returns it to the output, acoustic feedback may occur if the speaker signal is re-captured by the microphone.
 
+## Repository Contents
+
+  - README.md
+  - LiveAudioProcessingProgram.csd
+  - One-page-description.docx
+  - widget_setup.png
+  - build_and_run.md
 
 ## Author
 Robert Moore
